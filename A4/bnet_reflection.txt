@@ -1,0 +1,15 @@
+1. Explain what the calculations above might or might not tell you about the "fairness" of your Naive Bayesian network. Explain in 50-100 words.
+
+The above calculations show that our model predictions are favourable to men as comparable to women. There is no demographic parity 
+as one can see that our model predicts salaries higher than 50K for men more than women. It is not well separaetd either since 
+most of the probabilities become lower if gender is given a proper evidence variable (especially if it is 'Female'). Finally, the model 
+already predicts insufficiently accuraately for both men and women whether their salaries are greater than 50K or not. 
+
+
+2. Would you be willing to use your model to recommend starting salaries for employees at a firm? Why or why not? Explain in 50-100 words.
+
+No, I would not recommend using this model to recommend starting salaries for employees at a firm. Besides the model being not fair,
+it also uses facts about the individuals that should not matter like their Race, Gender, Relationship and Marital Status, all of which
+should have nothing to do with salaries. These information pieces can create unwanted biases within the model that should not exist
+making the model more unfair that it already is.
+
